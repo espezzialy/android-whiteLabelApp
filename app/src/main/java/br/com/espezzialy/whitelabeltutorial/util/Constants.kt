@@ -1,4 +1,4 @@
-package br.com.douglasmotta.whitelabeltutorial.util
+package br.com.espezzialy.whitelabeltutorial.util
 
 const val COLLECTION_ROOT = "data"
 const val COLLECTION_PRODUCTS = "products"

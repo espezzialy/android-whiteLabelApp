@@ -1,4 +1,4 @@
-package br.com.douglasmotta.whitelabeltutorial
+package br.com.espezzialy.whitelabeltutorial
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("br.com.douglasmotta.whitelabeltutorial", appContext.packageName)
+        assertEquals("br.com.espezzialy.whitelabel", appContext.packageName)
     }
 }

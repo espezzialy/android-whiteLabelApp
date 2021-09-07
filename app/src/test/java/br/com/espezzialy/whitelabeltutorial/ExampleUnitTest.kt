@@ -1,4 +1,4 @@
-package br.com.douglasmotta.whitelabeltutorial
+package br.com.espezzialy.whitelabeltutorial
 
 import org.junit.Test
 

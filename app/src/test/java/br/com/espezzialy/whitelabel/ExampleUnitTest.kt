@@ -29,4 +29,9 @@ class ExampleUnitTest {
     fun mockedTest3() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun mockedTest6() {
+        assertEquals(4, 2 + 2)
+    }
 }

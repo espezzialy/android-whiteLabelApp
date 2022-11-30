@@ -1,11 +1,8 @@
-name: Manual Generate APK
+name: Validate Assemble
 on:
-  workflow_dispatch:
-    inputs:
-      baseUrl:
-        description: 'Base URL'
-        required: false
-        default: 'https://production.example.com/api/v1'
+  push:
+    branches:
+    - main
 
 
 
@@ -31,4 +28,6 @@ jobs:
         with:
           name: build-outputs
           path: app/build/outputs
+
+
 

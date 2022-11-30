@@ -27,6 +27,6 @@ class ExampleUnitTest {
 
     @Test
     fun mockedTest3() {
-        assertEquals(4, 2 + 2)
+        assertEquals(6, 2 + 2)
     }
 }
